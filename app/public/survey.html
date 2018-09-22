@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friend Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">   
+    <style>
+   <style>  
+  </style>
+</head>
+<body>
+<nav id="header" class="navbar  navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="headTitle" class="navbar-brand" href="/">Friend Finder</a>
+    </div>      
+       
+   </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+       <div class="page-header">
+         <h1 id="header2">Survey Questions</h1>
+       </div>
+     </div>
+  </div> 
+
+ 
+  <div class="row">
+    <div class="col-12">
+       <div id="formBox">
+
+        <form method="POST" action="">
+
+        	<div id="aboutYou">
+
+            
+
+        		<h2 id="header2"><strong>About You</strong></h2>
+
+                <br>
+              <div id="inputBox">
+
+                <input id="nameInput" type="text" name="name" class="name&photoForm" required>
+
+                <label class='active' for="name">Name </label>
+                <br>
+                <br>
+
+                <input id="photoInput" type="text" name="photo" class="name&photoForm" required>
+
+                <label class='active' for="name">Link to Photo Image </label>
+
+              </div>
+        		
+        	</div>
+
+        	<div id="QuestionsBox">
+
+        		<h4><strong>Question 1</strong></h4>
+
+        		<h5> A resilient person deosn't experience difficulty or distress.</h5>
+
+        		<select name="score1" data-placeholder="" class="QuestionForm" id="q1" required>
+
+                    <option value="">Choose an option</option>
+
+                    <option value="1">1 (Strongly Disagree)</option>
+
+                    <option value="2">2</option>
+
+                    <option value="3">3</option>
+
+                    <option value="4">4</option>
+
+                    <option value="5">5 (Strongly Agree)</option>              
+
+                </select>
+
+                <h4><strong>Question 2</strong></h4>
+
+					<h5> I consider myself as extroverted.</h5>
+
+				 	<select name="score2" data-placeholder="" class="QuestionForm" id="q2" required>
+
+				 		<option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+			            <option value="1">1 (Strongly Disagree)</option>
+
+			            <option value="2">2</option>
+
+			            <option value="3">3</option>
+
+			            <option value="4">4</option>
+
+			            <option value="5">5 (Strongly Agree)</option>
+
+			      	</select>
+
+               <h4><strong>Question 3 </strong></h4>
+
+          <h5> Sacrifing my self to solve other's problem is precious deed.</h5>
+
+          <select name="score3" data-placeholder="" class="QuestionForm" id="q3" required>
+
+            <option value=""></option>
+
+                   <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>
+
+              <h4><strong>Question 4 </strong></h4>
+
+          <h5> Judging others is easier than judging my self. Self judgment is harder.</h5>
+
+          <select name="score4" data-placeholder="" class="QuestionForm" id="q4" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>
+
+                <h4><strong>Question 5 </strong></h4>
+
+          <h5>  In most aspects, including for your health, being optimist is better than being pessimst.</h5>
+
+          <select name="score5" data-placeholder="" class="QuestionForm" id="q5" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>
+
+              <h4><strong>Question 6 </strong></h4>
+
+          <h5>  A real friend is one who walks in when the rest of the world walks out.</h5>
+
+          <select name="score6" data-placeholder="" class="QuestionForm" id="q6" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>
+
+              <h4><strong>Question 7 </strong></h4>
+
+          <h5>   A Happy Life May Not Be a Meaningful Life.</h5>
+
+          <select name="score7" data-placeholder="" class="QuestionForm" id="q7" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>  
+
+              <h4><strong>Question 8 </strong></h4>
+
+          <h5>   I believe that our lives do have a purpose,and that the main purpose is to find happiness.</h5>
+
+          <select name="score8" data-placeholder="" class="QuestionForm" id="q8" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>
+
+              <h4><strong>Question 9 </strong></h4>
+
+          <h5>   Life is never made unbearable by circumstances, but only by lack of meaning and purpose.</h5>
+
+          <select name="score9" data-placeholder="" class="QuestionForm" id="q9" required>
+
+            <option value=""></option>
+
+                  <option value="">Choose an option</option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select> 
+
+              <h4><strong>Question 10 </strong></h4>
+
+          <h5>   Environment is one of the main factors that shapes our behaviour.</h5>
+
+          <select name="score10" data-placeholder="" class="QuestionForm" id="q10" required>
+
+                  <option value=""></option>
+
+                  <option value="1">1 (Strongly Disagree)</option>
+
+                  <option value="2">2</option>
+
+                  <option value="3">3</option>
+
+                  <option value="4">4</option>
+
+                  <option value="5">5 (Strongly Agree)</option>
+
+              </select>             
+        		
+        	</div>                  
+          <button id="submit">submit</button>
+        </form>
+        <br>
+        <br>
+  		
+  	</div> 
+     </div>
+  </div>
+
+  </div>
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/assets/javascript/jax.js"></script>
+  <script type="text/javascript">
+
+     $("#submit").click(function(){
+ function checkSurvayForm() {
+  
+      var inputValid = true;
+      $('.QuestionForm').each(function() {
+        if ( $(this).val() === '' )
+            inputValid = false;
+            console.log(inputValid);
+      });
+
+        return inputValid;
+      };
+
+      if (checkSurvayForm() == true){
+        $('form').attr('action', '/submit/');
+
+
+
+      } else{
+
+        alert("Please fill all the required field!");
+      }
+
+});
+
+  </script>
+
+    <footer class="footer">
+  <div class="container" style="position: fixed; bottom: 0;
+  left: 0;width: 100%;  height: 30px;  background-color:  #a00fa5d0;">
+    <p class="text-muted" style="text-align: center;color:  #ffffff;"> sticky footer </p>
+  </div>
+</footer>
+</body>
+</html>
